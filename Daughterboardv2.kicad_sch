@@ -1248,31 +1248,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 124.714 60.706 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 245c753d-627f-4074-aaa8-75f70e4f15e1)
-    (property "Reference" "#PWR07" (at 124.714 64.516 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 124.714 56.5729 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.714 60.706 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.714 60.706 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc3ebef2-37e8-4a5b-9903-ddd936e6f07a))
-    (instances
-      (project "Daughterboardv2"
-        (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 71.374 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 259d4351-2202-4df1-8d08-93c7f1a446ed)
@@ -1528,6 +1503,31 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 106.68 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 595d311f-f127-458c-9504-3cef2a725a72)
+    (property "Reference" "#PWR07" (at 106.68 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 106.68 40.3169 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 106.68 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 106.68 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fef77fef-7591-4e10-91ea-ee66f8ba7edc))
+    (instances
+      (project "Daughterboardv2"
+        (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+12V") (at 68.834 46.228 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59c7c96e-b932-49c9-8ad0-10d2a5293030)
@@ -1548,6 +1548,31 @@
       (project "Daughterboardv2"
         (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
           (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 124.714 60.706 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6977cf64-00a7-40bf-bd2c-0f37d5aa7e1a)
+    (property "Reference" "#PWR06" (at 124.714 64.516 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 124.714 56.5729 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.714 60.706 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 124.714 60.706 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a62180c3-8898-46f8-bdc2-ed478dc4cf2c))
+    (instances
+      (project "Daughterboardv2"
+        (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2084,31 +2109,6 @@
       (project "Daughterboardv2"
         (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 106.68 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fa5be757-2563-45e3-915f-60dfd9c02a76)
-    (property "Reference" "#PWR06" (at 106.68 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 106.68 40.3169 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 106.68 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 106.68 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid abd16206-a419-464d-b9ec-1f4aaea8b699))
-    (instances
-      (project "Daughterboardv2"
-        (path "/2cafaedd-8bd5-41d3-b750-dd0af036224e"
-          (reference "#PWR06") (unit 1)
         )
       )
     )
